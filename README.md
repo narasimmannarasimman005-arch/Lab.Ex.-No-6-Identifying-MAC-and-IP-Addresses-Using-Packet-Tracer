@@ -10,6 +10,10 @@ ________________________________________
 •	PCs, switches, router, hub, and wireless access point (as per given setup)<br>
 ________________________________________
 # Network Topology Diagram
+
+<img width="1912" height="1022" alt="image" src="https://github.com/user-attachments/assets/2d0a0a00-9a75-45d6-9166-2d3d9844c295" />
+
+
 # Description:
 •	The topology contains a local network (172.16.31.0/24) connected to a remote network (10.10.10.0/24) via a router.<br>
 •	Devices include PCs, switches, hub, and wireless AP.<br>
@@ -49,8 +53,18 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 ________________________________________
 # Output (Screenshots)
 •	PDU details for local communication<br>
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/0893fdb7-6c32-48c6-a99d-7a583d02dfc1" />
+
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/bd34d32a-2493-40a5-ae8d-787ef98a4ddb" />
+
 •	PDU details for remote communication<br>
+
+<img width="1600" height="903" alt="image" src="https://github.com/user-attachments/assets/291db046-2126-44c5-8788-ba57f60777e7" />
+
 •	Tables showing MAC/IP changes through each device<br>
+
+<img width="1012" height="297" alt="image" src="https://github.com/user-attachments/assets/0d57dc67-e0c4-4411-8cce-be3e2e599e82" />
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
